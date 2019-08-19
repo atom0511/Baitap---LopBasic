@@ -73,7 +73,7 @@ public class Lesson2 {
                     k++;
 //                    System.out.println("k = " + k);
 //                    System.out.println("i = " + i);
-                    if (k >= segLen || i == (doDain-2)) {
+                    if (k >= segLen || i == (doDain- segLen_+ 1)) {
                         k = 0;
                         i++;
                         x++;
