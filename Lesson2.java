@@ -7,7 +7,9 @@ public class Lesson2 {
 
     public static void main(String[] args) {
 //PHẦN 1: GÁN GIÁ TRỊ ĐIỂM
-
+System.out.println("Các số liệu bạn nhập vào cần thỏa mãn logic, ví dụ không thẻ kẻ đoạn thẳng 3cm bắt đầu tại điểm 8cm trên thước đo 10cm");
+        System.out.println("");
+        
         // nhập vào số pt và giá trị pt của mảng
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập số điểm: ");
