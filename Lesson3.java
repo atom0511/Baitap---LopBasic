@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Baitap;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- *
- * @author Admin
- */
 public class Lesson3 {
 
     public static void main(String[] args) {
@@ -26,7 +17,6 @@ public class Lesson3 {
         for (int i = 0; i < doDai; i++) {
             String token = sc.next();
             a[i] = Integer.parseInt(token);
-
         }
         System.out.println("Thứ tự ban đầu: " + Arrays.toString(a));
         for (int i = 0; i < doDai; i++) {
@@ -39,11 +29,9 @@ public class Lesson3 {
             }
         }
         System.out.println("Thứ tự sau sắp xếp: " + Arrays.toString(a));
-
         System.out.println("");
         System.out.println("BaiTapPhepNhan: ");
         System.out.println("");
-
                 System.out.println("Nhập 2 số ngẫu nhiên dạng abc: ");
         int m = sc.nextInt();
         int n = sc.nextInt();
@@ -72,15 +60,11 @@ public class Lesson3 {
   System.out.println("  " + m * n);
         break;
                                 }
-
                             }
                         }
                     }
                 }
             }
-
         }
-
     }
-
 }
