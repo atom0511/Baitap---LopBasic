@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Lesson7_1 {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
         System.out.println("Enter the length of 2 array: ");
         System.out.print("A Length: ");
         int leng1 = sc.nextInt();
@@ -14,8 +14,10 @@ public class Lesson7_1 {
         int leng2 = sc.nextInt();
         int[] a = new int[leng1];
         int[] b = new int[leng2];
+        
         int leng3 = leng1 + leng2;
         int[] c = new int[leng3];
+        
         System.out.println("Enter the elements of A array: ");
         for (int i = 0; i < leng1; i++) {
             String token = sc.next();
