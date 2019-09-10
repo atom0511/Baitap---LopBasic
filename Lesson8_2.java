@@ -15,18 +15,23 @@ public class Lesson8_2 {
             arr[i] = Integer.parseInt(token);
         }
         for (int i = 0; i < leng; i++) {
+            boolean flag = true;
+            int num1 = arr[i];
             if (arr[i] < 10 && arr[i] % 2 == 1) {
                 System.out.println("The element to find is: " + arr[i]);
                 break;
-            } else {
-                int num1 = arr[i];
-                while (true) {
-                    if (num1 > 1) {
-                        num1 = num1 / 10;
-                    }
-                    System.out.println("The element to find is: " + "arr[" + i + "] = " + arr[i]);
-                    break;
+            }
+            while (arr[i] >= 10 && flag) {
+                num1 = num1 / 10;
+                if (num1 < 10) {
+                    flag = false;
                 }
+            }
+            if (num1 % 2 == 1) {
+                System.out.println("The element to find is: " + "arr[" + i + "] = " + arr[i]);
+                break;
+            } else if (i == leng - 1) {
+                System.out.println("No element satisfy request");
                 break;
             }
         }
