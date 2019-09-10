@@ -16,8 +16,8 @@ public class Lesson8_1 {
             arr[i] = Integer.parseInt(token);
         }
         boolean flag = true;
-        for (int i = 0; i < leng; i++) {
-            if(i > 0 && arr[i-1] > arr[i]){
+        for (int i = 1; i < leng; i++) {
+            if(arr[i-1] > arr[i]){
                 flag = false;
             }
         }
