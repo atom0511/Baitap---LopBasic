@@ -25,7 +25,6 @@ public class Lesson9 {
 
     static String[] SortChar(char[] arr) {//Bai3
         String[] a = new String[arr.length];
-
         for (int i = 0; i < arr.length; i++) {
             for (int j = 1; j < arr.length; j++) {
                 if ((int) arr[j] < (int) arr[j - 1]) {
@@ -35,7 +34,6 @@ public class Lesson9 {
                 }
             }
         }
-
         return a;
     }
 
@@ -49,7 +47,6 @@ public class Lesson9 {
         boolean checkA = checkSTN(a);
         System.out.println( checkA);
         // Bai3
-
         char[] aaa = {'y', 'a', 'c', 'z', 'e', 'd'};
         String[] aaa2 = SortChar(aaa);
         System.out.println(Arrays.toString(aaa));
