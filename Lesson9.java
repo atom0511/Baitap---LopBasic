@@ -23,7 +23,7 @@ public class Lesson9 {
         return flag;
     }
 
-    static String[] SortChar(char[] arr) {
+    static String[] SortChar(char[] arr) {//Bai3
         String[] a = new String[arr.length];
 
         for (int i = 0; i < arr.length; i++) {
