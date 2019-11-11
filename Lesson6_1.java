@@ -49,7 +49,7 @@ public class Lesson6_1 { // tổng và tích 2 ma trận
 //                System.out.print(b[i][j] + (j < cot2 - 1 ? ", " : "]\n"));
 //            }
 //        }
-//        if (hang1 == hang2 && cot1 == cot2) {
+       if (hang1 == hang2 && cot1 == cot2) {
 //            System.out.println("Tong hai ma tran: ");
 //            for (int i = 0; i < hang1; i++) {
 //                System.out.print("[");
