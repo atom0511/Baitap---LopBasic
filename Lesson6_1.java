@@ -60,14 +60,11 @@ public class Lesson6_1 { // tổng và tích 2 ma trận
 //            }
 //        }
         
-            int sum = 0;
             for (int i = 0; i < cot2; i++) {
                 for (int j = 0; j < hang1; j++) {
                     for (int k = 0; k < cot1; k++) {// hang2 = cot1
-                        sum = sum + a[j][k] * b[k][i];
-                        d[j][i] = sum;
+                        d[j][i] += a[j][k] * b[k][i];
                     }
-                    sum = 0;
                 }
             }
             System.out.println("Ma tran tich la: ");
